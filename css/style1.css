@@ -1,0 +1,53 @@
+.bloco {
+    background-color: rgb(200, 171, 228);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  
+}
+
+#exe1 {
+    padding: 25px;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#exe2 {
+    padding: 25px;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#exe2 .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+}
+
+#exe2 .bloco {
+    margin: 10px;
+}
+
+#exe3 {
+    padding: 25px;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+#exe3 .bloco{
+    width: 250px;
+    margin: 10px;
+}
+
+#exe3 .down {
+    margin-top: auto;
+}

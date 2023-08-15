@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-image: url(https://images6.alphacoders.com/885/885542.png);
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+}
+
+header img {
+    padding-top: 570px;
+
+}
+
+header span {
+    color: aliceblue;
+    margin: 0 20px 0 auto
+}
+
+main {
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#sidebar-right, #sidebar-left {
+    width: 200px;
+    background-color: rgb(48, 47, 63);
+    height: 500px;
+}
+
+#content {
+    width: 500px;
+    background-color: rgb(89, 85, 95);
+    height: 500px;
+}
+
+#footer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
