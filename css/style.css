@@ -1,10 +1,10 @@
-
-/*body e home*/
 body {
     font-family: 'Courier Prime', Courier, monospace;
     color: whitesmoke; 
     margin: 0;
 }
+
+/*home*/
 
 .home {
     background-image: url(https://images6.alphacoders.com/885/885542.png);
@@ -17,17 +17,26 @@ body {
 
 /*Projeto Donut*/
 
+.home-project {
+    background-image: url("../img/fund.jpg");
+}
+
 .home-project header {
     background-size: cover;
+    background-color: rgb(255, 223, 247);
     text-align: center;
     margin: auto;
-    color: black;
+    color: rgb(100, 67, 92);
+    font-size: 10px;
 }
 
 .home-project header span {
     margin: 0 0 0 auto;
     font-weight: bold;
     font-size: 20px;
+    background-color: rgba(100, 67, 92, 0.2);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .home-project header div {
@@ -45,20 +54,20 @@ body {
     width: 1000px;
     margin: 0 auto;
     gap: 20px;
+    padding: 25px;
 }
-
 
 .home-project #sidebar-right, #sidebar-left {
     width: 200px;
-    background-color: rgb(48, 47, 63);
-    height: 500px;
+    background-color: rgb(100, 67, 92, 0.2);
+    height: 600px;
     padding: 20px;
 }
 
 .home-project #content {
     width: 500px;
-    background-color: rgb(89, 85, 95);
-    height: 500px;
+    background-color: rgb(100, 67, 92, 0.1);
+    height: 600px;
     padding: 20px;
 }
 
@@ -121,4 +130,5 @@ footer {
     height: 100px;
     justify-content: center;
     align-items: center;
+    color: rgb(34, 22, 31);
 }
