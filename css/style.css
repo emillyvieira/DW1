@@ -1,8 +1,9 @@
 body {
     font-family: 'Courier Prime', Courier, monospace;
-    color: whitesmoke; 
+    color: whitesmoke;
     margin: 0;
 }
+
 
 /*home*/
 
@@ -14,7 +15,7 @@ body {
     text-shadow: 10px;
 }
 
-.home h1{
+.home h1 {
     font-family: "Sacramento", cursive;
     color: aliceblue;
 }
@@ -23,7 +24,7 @@ body {
     padding-top: 180px;
 }
 
-.home .buttons{
+.home .buttons {
     width: 300px;
     padding: 10px 18px;
     font-weight: bolder;
@@ -40,12 +41,12 @@ body {
     color: rgb(245, 228, 255);
 }
 
-.home .buttons:hover{
+.home .buttons:hover {
     padding: 10px 18px;
     text-decoration: none;
     border-radius: 10px;
     background-color: rgb(173, 103, 238);
-    box-shadow:rgb(34, 22, 31);
+    box-shadow: rgb(34, 22, 31);
     vertical-align: middle;
     overflow: hidden;
     text-align: center;
@@ -59,6 +60,8 @@ body {
     align-items: center;
     padding-top: 10px;
 }
+
+
 /*Projeto Donut*/
 
 .home-project {
@@ -95,13 +98,12 @@ body {
 
 .home-project main {
     display: flex;
-    width: 1000px;
-    margin: 0 auto;
     gap: 20px;
     padding: 25px;
 }
 
-.home-project #sidebar-right, #sidebar-left {
+.home-project #sidebar-right,
+#sidebar-left {
     width: 200px;
     background-color: rgb(100, 67, 92, 0.2);
     height: 600px;
@@ -115,7 +117,9 @@ body {
     padding: 20px;
 }
 
+
 /*exercicios*/
+
 .bloco {
     background-color: rgb(200, 171, 228);
     width: 50px;
@@ -159,7 +163,7 @@ body {
     flex-direction: column;
 }
 
-#exe3 .bloco{
+#exe3 .bloco {
     width: 250px;
     margin: 10px;
 }
@@ -168,11 +172,18 @@ body {
     margin-top: auto;
 }
 
+
 /*footer*/
+
 footer {
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
     color: rgb(34, 22, 31);
+}
+
+.wrapper {
+    width: auto;
+    margin: 0 auto;
 }
