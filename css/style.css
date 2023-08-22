@@ -61,7 +61,6 @@ body {
     padding-top: 10px;
 }
 
-
 /*Projeto Donut*/
 
 .home-project {
@@ -77,13 +76,10 @@ body {
     font-size: 10px;
 }
 
-.home-project header span {
+.home-project header nav {
     margin: 0 0 0 auto;
     font-weight: bold;
     font-size: 20px;
-    background-color: rgba(100, 67, 92, 0.2);
-    padding: 10px;
-    border-radius: 10px;
 }
 
 .home-project header div {
@@ -102,8 +98,7 @@ body {
     padding: 25px;
 }
 
-.home-project #sidebar-right,
-#sidebar-left {
+.home-project #sidebar-right, #sidebar-left {
     width: 200px;
     background-color: rgb(100, 67, 92, 0.2);
     height: 600px;
@@ -183,7 +178,42 @@ footer {
     color: rgb(34, 22, 31);
 }
 
-.wrapper {
-    width: auto;
-    margin: 0 auto;
+a {
+    text-decoration: none;
+    color: rgb(168, 17, 135);
 }
+
+header a.logotype {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(100, 67, 92);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    font-size: medium;
+}
+header nav ul li a{
+    padding: 0 0 7px 0;
+    border-radius: 2px;
+
+}
+
+.active {
+    border-bottom: 2px solid rgb(224, 11, 178, 0.20);
+}
+
+/*animation*/
+
+
+
