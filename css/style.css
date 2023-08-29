@@ -63,10 +63,6 @@ body {
 
 /*Projeto Donut*/
 
-.home-project {
-    background-image: url("../img/fund.jpg");
-}
-
 .home-project header {
     background-size: cover;
     background-color: rgb(255, 223, 247);
@@ -100,15 +96,15 @@ body {
 
 .home-project #sidebar-right, #sidebar-left {
     width: 200px;
-    background-color: rgb(100, 67, 92, 0.2);
+    background-color: rgb(100, 67, 92, 0);
     height: 600px;
     padding: 20px;
 }
 
 .home-project #content {
     width: 500px;
-    background-color: rgb(100, 67, 92, 0.1);
-    height: 600px;
+    background-color: rgb(100, 67, 92, 0.0);
+    height: 800px;
     padding: 20px;
 }
 
@@ -176,6 +172,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: rgb(34, 22, 31);
+    background-color: aliceblue;
 }
 
 a {
@@ -213,7 +210,75 @@ header nav ul li a{
     border-bottom: 2px solid rgb(224, 11, 178, 0.20);
 }
 
-/*animation*/
+.card {
+    background-color: whitesmoke;
+    color: rgb(100, 67, 92);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(100, 67, 92, 0);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
+.card div {
+    padding: 15px;
+    padding-top: 10px;
+}
 
+.card div h4{
+   margin: 0 0 10px 0;
+}
 
+.card div p{
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+
+.card-content {
+    display: flex;
+    background-color: whitesmoke;
+    color: rgb(100, 67, 92);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(100, 67, 92, 0);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.card-content img {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.card-content div {
+    padding: 15px;
+}
+
+.card-content div h4{
+   margin: 0 0 10px 0;
+}
+
+.card-content div p{
+    margin-bottom: 6px;
+    font-size: smaller;
+    
+}
+
+.card-content div span {
+    margin: 0 auto;
+    background-color: rgb(168, 17, 135);
+    color: aliceblue;
+    font-size: smaller;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.texto {
+    color: rgb(100, 67, 92);
+    font-style: italic;
+    padding: 20px;
+    text-align: justify;
+}
