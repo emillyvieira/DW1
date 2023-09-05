@@ -25,7 +25,7 @@
                         <li><a href="../projeto-donut.html" class="active">Home</a></li>
                         <li><a href="../paginas-projeto/sobre.html">Sobre</a></li>
                         <li><a href="../paginas-projeto/contato.html">Contato</a></li>
-                        <li><button onclick="window.location.href= 'paginas-projeto/cadastro.html'">Cadastre-se</button></li>
+                        <li><button onclick="window.location.href= 'cadastro.html'">Cadastre-se</button></li>
                     </ul>
                 </nav>
             </div>
@@ -37,37 +37,51 @@
             <div id="content">
                 <h1>Cadastro</h1>
 
-                <form action="post">
-                    <label for="nome">Nome: </label><input type="text" id="nome" name="nameUser"><br>
-                    <label for="senha">Senha: </label><input type="password" id="senha" name="passwordUser"><br>
+                <form action="cadastro.html" method="post">
+                    <div class="texto-cadastro">
+                        <fieldset>
+                            <legend>Dados Pessoais</legend>
+                            <label for="nome">Nome: </label><input type="text" id="nome" name="nameUser"><br>
+                            <label for="senha">Senha: </label><input type="password" id="senha" name="passwordUser"><br>
 
-                    <label for="idade">Idade: </label><input type="number" id="idade" name="ageUser"><br>
-                    <label for="email">Email: </label><input type="email" id="email" name="emailUser"><br>
-                                
-                    <label for="state">Estado:</label>
-                    <select id="state" name="userState">
-                        <option value="SP">São Paulo</option>
-                        <option value="RJ">Rio de Janeiro</option>
-                        <option value="MG">Minas Gerais</option>
-                        <option value="ES" selected>Espírito Santo</option>
-                    </select><br>
-                    <label for="arquivo">Arquivo: </label><input type="file" id="arquivo" name="fileUser"><br>
-
+                            <label for="idade">Idade: </label><input type="number" id="idade" name="ageUser"><br>
+                            <label for="email">Email: </label><input type="email" id="email" name="emailUser"><br>
+                                        
+                            <label for="state">Estado:</label>
+                            <select id="state" name="userState">
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="ES" selected>Espírito Santo</option>
+                            </select><br>
+                            <label for="arquivo">Arquivo: </label><input type="file" id="file" name="fileUser"><br>
+                        </fieldset>
+                    </div>
                     <hr>
-                    <label for="news">Deseja receber notícias: </label><input type="checkbox" id="news" name="nwewsUser" checked><br>
+                    <fieldset>
+    
+                        <label for="news">Deseja receber notícias: </label><input type="checkbox" id="news" name="nwewsUser" checked><br>
 
-                    <h3>Selecione a frequência</h3>
-                    <input type="radio" id="daily" name="periodicity" value="D" checked> <label for="daily">Diariamente</label><br>
-                    <input type="radio" id="weekly" name="periodicity" value="W"> <label for="weekly">Semanalmente</label><br>
-                    <input type="radio" id="monthly" name="periodicity" value="M"> <label for="monthly">Mensalmente</label><br>
-                
-                    <hr>
-                    <h3>Escreva um comentário:</h3>
-                    <textarea placeholder="Escreva aqui seu comentário..."></textarea>
+                        <h3>Selecione a frequência</h3>
+                        <input type="radio" id="daily" name="periodicity" value="D" checked> <label for="daily">Diariamente</label><br>
+                        <input type="radio" id="weekly" name="periodicity" value="W"> <label for="weekly">Semanalmente</label><br>
+                        <input type="radio" id="monthly" name="periodicity" value="M"> <label for="monthly">Mensalmente</label><br>
                     
+                        <hr>
+                        
+                    </fieldset>
+                    
+                    <fieldset>
+                        <h3>Escreva um comentário:</h3>
+                        <textarea placeholder="Escreva aqui seu comentário..."></textarea>
+                        
+                    </fieldset>
                     <hr>
+                    <div class="bottom-cadastro">
+                        <input type="submit" value="Cadastrar">
+                        <input type="reset" value="Limpar">
+                    </div>
                    
-                    <input type="submit" value="Cadastrar">
                 </form>
                 
 

@@ -172,7 +172,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: rgb(34, 22, 31);
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
 }
 
 a {
@@ -318,10 +318,35 @@ th, td{
     padding: 5px 10px;
 }
 
-input {
+input, select, input[type=file] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.texto-cadastro input {
     padding: 5px;
 }
 
+form {
+    padding: 25px;
+    background-color: rgb(255, 246, 237);
+}
+
+fieldset {
+    border: 2px dotted rgb(237, 226, 226);
+}
+
 hr {
-    border: 1px dashed rgb(230, 230, 230);
+    border: 1px dashed rgb(237, 226, 226);
+}
+
+.bottom-cadastro input {
+    background: none;
+    border: 2px dotted rgb(237, 226, 226);
+    font-family: 'Courier New', Courier, monospace[];
+}
+
+.produto {
+    display: flex;
 }
