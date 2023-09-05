@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier Prime', Courier, monospace;
-    color: whitesmoke;
+    color: rgb(100, 67, 92);
     margin: 0;
 }
 
@@ -200,10 +200,32 @@ header nav ul {
     gap: 10px;
     font-size: medium;
 }
+
 header nav ul li a{
     padding: 0 0 7px 0;
     border-radius: 2px;
+}
 
+header nav ul li button{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(100, 67, 92);
+    border-color: rgb(100, 67, 92);
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+header nav ul li button:hover{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(232, 168, 216);
+    border-color: rgb(181, 147, 172);
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .active {
@@ -281,4 +303,25 @@ header nav ul li a{
     font-style: italic;
     padding: 20px;
     text-align: justify;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #CCC;
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+hr {
+    border: 1px dashed rgb(230, 230, 230);
 }

@@ -13,24 +13,56 @@
     </head>
 
     <body class="home-project">
-        <header >
+        <header>
             <div class="wrapper">
-                <img src="../../img/donut32.png" alt="Donuts MONKBERRY Logo">
-                <h1>Donuts MONKBERRY</h1>
+                <a href="../projeto-donut.html" class="logotype">
+                    <img src="../../img/donut32.png" alt="Donuts MONKBERRY Logo">
+                    <h1>Donuts MONKBERRY</h1>
+                </a>
+                
                 <nav>
                     <ul> 
-                        <li><a href="../projeto-donut.html">Home</a></li>
+                        <li><a href="../projeto-donut.html" class="active">Home</a></li>
                         <li><a href="../paginas-projeto/sobre.html">Sobre</a></li>
-                        <li><a href="../paginas-projeto/contato.html" class="active">Contato</a></li>
+                        <li><a href="../paginas-projeto/contato.html">Contato</a></li>
+                        <li><button onclick="window.location.href= '../paginas-projeto/cadastro.html'">Cadastre-se</button></li>
                     </ul>
                 </nav>
             </div>
+    
         </header>
 
         <main class="wrapper">
             <div id="sidebar-right"></div>
             <div id="content">
-                <h1>Contato</h1>>
+                <h1>Contato</h1>
+
+                <table>
+                    <tr>
+                      <th colspan="4">Tabela de Contatos</th>
+                    </tr>
+                    <tr>
+                      <th rowspan="3">Todos Contatos</th>
+                      <th>Nome</th>
+                      <th>Email</th>
+                      <th>Telefone</th>
+                    </tr>
+                    <tr>
+                      <td>Renan Cavichi</td>
+                      <td>renancavichi@gmail.com</td>
+                      <td>(11) 9 9999-9999</td>
+                    </tr>
+                    <tr>
+                      <td>Maria</td>
+                      <td>maria@gmail.com</td>
+                      <td>(11) 9 9999-9999</td>
+                    </tr>
+                  </table>
+            
+                  <h2>Tabela 2</h2>
+            
+                  <h2>Tabela 3</h2>
+
             </div>
             <div id="sidebar-left"></div>
         </main>
